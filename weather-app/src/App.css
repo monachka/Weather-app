@@ -1,0 +1,165 @@
+.App {
+  text-align: center;
+  color: #fff;
+}
+
+.App-logo, .bar {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+/* .container
+{
+  background-color: darkorange;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+} */
+
+.bar{
+  background-color: gray; /* Example background color for the toolbar */
+  padding-left: 10px;
+  color: #fff;
+}
+
+.s{
+  /* margin-top: 55px; */
+  width: 45%;
+  /* margin-left: 25%; */
+  height: 35px;
+  border-style:groove;
+  background-color:bisque;
+}
+
+.s1, .s2{
+  height: 30px;
+  width: 100%;
+  border-style:groove;
+  background-color:bisque;
+}
+
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.principal {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: left;
+  width: 100%;
+}
+
+.imgs{
+  margin-top: 85px;
+  /* flex-basis: 48%; 
+  /* padding: 10px;  */
+  /* box-sizing: border-box; */
+}
+
+.search{
+  margin-top: 65px;
+  /* flex-basis: 48%;  */
+  /* padding: 10px;  */
+  /* box-sizing: border-box; */
+  margin-right: 385px;
+  /* position: fixed; */
+  width: 25%;
+}
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+/* ----------------------------------------------------------------------------------------- */
+
+.weather-card {
+  background-color: #fff;
+  color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  text-align: center;
+  margin: 20px;
+  max-width: 90%; /* Set a percentage or use media queries */
+}
+
+.weather-card h2 {
+  font-size: 2rem; /* Adjust font size using responsive units */
+  margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+  .weather-card {
+    max-width: 95%; /* Adjust width for smaller screens */
+  }
+
+  .weather-card h2 {
+    font-size: 1.5rem; /* Adjust font size for smaller screens */
+  }
+
+  /* Add other responsive styles as needed */
+}
+
+.weather-info img {
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+}
+
+.temperature p {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.details p {
+  font-size: 16px;
+  margin: 5px 0;
+}
+
+.box {
+  flex: 1; 
+  margin-right: 190px;
+}
+
+.coord {
+  margin-right: 300px;
+  flex: 1;
+}
+
+.side-by-side {
+  display: flex;
+  justify-content: space-between;
+}

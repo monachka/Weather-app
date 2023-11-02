@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/static/css/main.fa42a8fd.css",
+    "main.js": "/static/js/main.b956cc53.js",
+    "static/js/787.d9312eb8.chunk.js": "/static/js/787.d9312eb8.chunk.js",
+    "static/media/night_clouds.jpeg": "/static/media/night_clouds.ef1821cdd5b7efba3924.jpeg",
+    "static/media/day_clouds2.jpeg": "/static/media/day_clouds2.75b003d0c2a2b6ff6e89.jpeg",
+    "static/media/night_light.jpeg": "/static/media/night_light.6ae620abb5fd176fd1a7.jpeg",
+    "static/media/night_rain.jpeg": "/static/media/night_rain.d3e7d17e9a541da437d1.jpeg",
+    "static/media/logo.jpeg": "/static/media/logo.be9459b3819dce34e211.jpeg",
+    "static/media/logo2.jpeg": "/static/media/logo2.7dce2568a74e456d3dae.jpeg",
+    "index.html": "/index.html",
+    "main.fa42a8fd.css.map": "/static/css/main.fa42a8fd.css.map",
+    "main.b956cc53.js.map": "/static/js/main.b956cc53.js.map",
+    "787.d9312eb8.chunk.js.map": "/static/js/787.d9312eb8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fa42a8fd.css",
+    "static/js/main.b956cc53.js"
+  ]
+}
